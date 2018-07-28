@@ -1,0 +1,17 @@
+{
+  "name": "nigthwatchjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "testff": "nightwatch --env ff",
+    "testall": "nightwatch --env ff,default"
+  },
+  "author": "Damian Szymczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dszymczuk/nigthwatchjs-example/issues"
+  },
+  "homepage": "https://github.com/dszymczuk/nigthwatchjs-example#readme"
+}
