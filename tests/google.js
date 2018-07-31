@@ -2,7 +2,7 @@ const appAddress = 'https://www.google.pl/';
 const pause = 3000;
 
 module.exports = {
-  'Check elements': !function(browser) {
+  'Check elements': function(browser) {
     browser
       .url(appAddress)
       .waitForElementVisible('body', 2000);
@@ -16,7 +16,7 @@ module.exports = {
 
     browser.end();
   },
-  'Check input': !function(browser) {
+  'Check input': function(browser) {
     browser
       .url(appAddress)
       .waitForElementVisible('body', 2000)
