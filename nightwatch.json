@@ -14,7 +14,7 @@
   "test_settings": {
     "default": {
       "selenium_port": 4444,
-      "selenium_host": "localhost",
+      "selenium_host": "host.docker.internal",
       "silent": true,
       "screenshots": {
         "enabled": false,
