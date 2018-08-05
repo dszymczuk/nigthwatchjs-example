@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch",
-    "testff": "nightwatch --env ff",
-    "testall": "nightwatch --env ff,default"
+    "test": "nightwatch"
   },
   "author": "Damian Szymczuk",
   "license": "ISC",

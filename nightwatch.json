@@ -23,18 +23,6 @@
       "desiredCapabilities": {
         "browserName": "chrome"
       }
-    },
-    "ff": {
-      "selenium_port": 4445,
-      "selenium_host": "localhost",
-      "silent": true,
-      "screenshots": {
-        "enabled": false,
-        "path": ""
-      },
-      "desiredCapabilities": {
-        "browserName": "firefox"
-      }
     }
   }
 }
