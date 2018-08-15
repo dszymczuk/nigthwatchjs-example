@@ -14,7 +14,6 @@ services:
         volumes:
           - /dev/shm:/dev/shm
     test-runner:
-        image: test-runner
         build:
           context: .
         depends_on:
