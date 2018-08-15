@@ -43,7 +43,7 @@ module.exports = {
       .click('input.lsb');
 
     browser.assert.containsText('div#rso > div',
-      'Damian Szymczuk');
+      'Damian Niedziałający Szymczuk');
 
     browser.pause(pause);
 
