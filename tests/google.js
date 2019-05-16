@@ -10,7 +10,7 @@ module.exports = {
 
     browser.assert.elementPresent("#hplogo");
     browser.assert.elementPresent("form");
-    browser.assert.elementPresent("input#lst-ib");
+    browser.assert.elementPresent("input[name=q]");
     browser.assert.elementPresent("input[name=btnK]");
     browser.assert.elementPresent("input[name=btnI]");
 
@@ -24,8 +24,9 @@ module.exports = {
 
     browser
       .setValue('input[type=text]', 'Damian Szymczuk')
-      .waitForElementVisible('input.lsb', 1000)
-      .click('input.lsb');
+      .pause(pause)
+      .waitForElementVisible('div.sbl1', 2000)
+      .click('div.sbl1');
 
     browser.pause(pause);
 
@@ -39,8 +40,9 @@ module.exports = {
 
     browser
       .setValue('input[type=text]', 'Damian Szymczuk')
-      .waitForElementVisible('input.lsb', 1000)
-      .click('input.lsb');
+      .pause(pause)
+      .waitForElementVisible('div.sbl1', 2000)
+      .click('div.sbl1');
 
     browser.assert.containsText('div#rso > div',
       'Damian Szymczuk');
