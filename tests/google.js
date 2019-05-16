@@ -24,7 +24,8 @@ module.exports = {
 
     browser
       .setValue('input[type=text]', 'Damian Szymczuk')
-      .waitForElementVisible('div.sbl1', 1000)
+      .pause(pause)
+      .waitForElementVisible('div.sbl1', 2000)
       .click('div.sbl1');
 
     browser.pause(pause);
@@ -39,7 +40,8 @@ module.exports = {
 
     browser
       .setValue('input[type=text]', 'Damian Szymczuk')
-      .waitForElementVisible('div.sbl1', 1000)
+      .pause(pause)
+      .waitForElementVisible('div.sbl1', 2000)
       .click('div.sbl1');
 
     browser.assert.containsText('div#rso > div',
